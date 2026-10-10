@@ -1,161 +1,128 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080F1D,50:164E63,100:06B6D4&height=220&section=header&text=DATA%20SCIENCE&fontSize=48&fontColor=FFFFFF&fontAlignY=35&desc=Turning%20Data%20Into%20Insights&descAlignY=58&descSize=18" width="100%" alt="Data Science Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0B3B60,100:06B6D4&height=220&section=header&text=Kawser%20Hossen&fontSize=46&fontColor=FFFFFF&fontAlignY=35&desc=DATA%20SCIENCE%20%7C%20MACHINE%20LEARNING%20ENGINEERING&descSize=14&descAlignY=58" width="100%" alt="Data Science and Machine Learning Banner" />
 </div>
 
-<h1 align="center">Hey there, I'm Kawser 👋</h1>
-
-<h3 align="center">Aspiring Data Scientist | Data Analytics | Python</h3>
+<h2 align="center">Data Science & Machine Learning</h2>
 
 <p align="center">
-  Exploring data, discovering patterns, and turning information into meaningful insights.
+  <b>Understanding Data. Building Intelligence. Creating Impact.</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mijumderkawser">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Journey-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
-  </a>
-  <img src="https://img.shields.io/badge/Field-Data%20Science-0891B2?style=for-the-badge" alt="Data Science" />
-  <img src="https://img.shields.io/badge/Mindset-Always%20Learning-0F766E?style=for-the-badge" alt="Always Learning" />
+  <img src="https://img.shields.io/badge/FOCUS-Data%20Science-0EA5E9?style=flat-square" alt="Data Science" />
+  <img src="https://img.shields.io/badge/FOCUS-Machine%20Learning-06B6D4?style=flat-square" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/MINDSET-Always%20Learning-14B8A6?style=flat-square" alt="Always Learning" />
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## 👨‍💻 About Me
 
-- 🔍 Interested in Data Science, Data Analytics, and Machine Learning.
-- 🐍 Exploring Python for data analysis and problem-solving.
-- 📊 Interested in finding patterns and useful insights in datasets.
-- 📈 Learning how to communicate findings through data visualization.
-- 🧠 Improving my analytical thinking through practical projects.
-- 🌱 Learning new tools and concepts step by step.
-- 🎯 Goal: Turn raw data into meaningful insights.
+Hi, I'm **Kawser Hossen**.
 
----
+I'm passionate about **Data Science and Machine Learning Engineering**. I'm interested in understanding complex datasets, discovering meaningful patterns, and developing intelligent systems with data.
 
-## 🛠️ My Data Science Toolkit
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
-</p>
-
-<p align="center">
-  <em>My learning toolkit — developing skills through practice.</em>
-</p>
+- 🧠 Exploring Data Science fundamentals.
+- 🐍 Learning Python for scientific computing.
+- 🤖 Exploring Machine Learning algorithms and models.
+- 📊 Interested in statistical learning and data visualization.
+- ⚙️ Working toward building practical ML applications.
+- 🚀 Improving my skills through hands-on projects.
 
 ---
 
-## 🗺️ My Data Science Roadmap
+## 🧬 Core Areas of Interest
 
 <table>
   <tr>
     <td width="50%">
-      <h3>🐍 Python Programming</h3>
-      <p>Core Python, functions, data structures, and problem-solving.</p>
-    </td>
-    <td width="50%">
-      <h3>🧹 Data Cleaning</h3>
-      <p>Working with missing values, duplicates, and inconsistent data.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>📊 Data Analysis</h3>
-      <p>Exploring datasets, identifying trends, and finding patterns.</p>
-    </td>
-    <td width="50%">
-      <h3>📈 Data Visualization</h3>
-      <p>Creating useful charts and communicating insights clearly.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🗄️ SQL & Databases</h3>
-      <p>Filtering, joining, grouping, and querying structured data.</p>
+      <h3>🔬 Data Science</h3>
+      <p>Data exploration, statistics, feature engineering, experimentation, and extracting meaningful insights from data.</p>
     </td>
     <td width="50%">
       <h3>🤖 Machine Learning</h3>
-      <p>Understanding algorithms, model training, and evaluation.</p>
+      <p>Supervised learning, unsupervised learning, model evaluation, and predictive modeling.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧠 Deep Learning</h3>
+      <p>Neural networks, representation learning, and modern AI concepts.</p>
+    </td>
+    <td width="50%">
+      <h3>⚙️ ML Engineering</h3>
+      <p>Model pipelines, reproducible experiments, deployment fundamentals, and building maintainable ML systems.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🚀 Projects I'm Exploring
-
-<table>
-  <tr>
-    <th>Project Idea</th>
-    <th>What I Want to Learn</th>
-  </tr>
-  <tr>
-    <td>📊 Exploratory Data Analysis</td>
-    <td>Understand datasets and discover trends and relationships.</td>
-  </tr>
-  <tr>
-    <td>🧹 Data Cleaning with Python</td>
-    <td>Prepare messy datasets for reliable analysis.</td>
-  </tr>
-  <tr>
-    <td>🛒 Sales Data Analysis</td>
-    <td>Explore sales performance and business trends.</td>
-  </tr>
-  <tr>
-    <td>🌎 Real-World Dataset Visualization</td>
-    <td>Present findings through charts and graphs.</td>
-  </tr>
-  <tr>
-    <td>🤖 Beginner Machine Learning</td>
-    <td>Learn how predictive models work and how to evaluate them.</td>
-  </tr>
-</table>
+## 🛠️ Technologies on My Learning Path
 
 <p align="center">
-  <em>I'll add links to my repositories as I complete and publish projects.</em>
+  <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=numpy" height="48" alt="NumPy" />
+  <img src="https://skillicons.dev/icons?i=pytorch" height="48" alt="PyTorch" />
+  <img src="https://skillicons.dev/icons?i=tensorflow" height="48" alt="TensorFlow" />
+  <img src="https://skillicons.dev/icons?i=sklearn" height="48" alt="Scikit-learn" />
+  <img src="https://skillicons.dev/icons?i=jupyter" height="48" alt="Jupyter" />
+  <img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" />
+</p>
+
+<p align="center">
+  <em>Tools I'm exploring and plan to use in practical projects.</em>
 </p>
 
 ---
 
-## 📊 GitHub Statistics
+## 🚀 Projects & Experiments
+
+I'm working toward building projects in these areas:
+
+| Project Direction | Goal |
+|---|---|
+| 📊 Exploratory Data Science | Discover patterns and relationships in real-world datasets |
+| 🤖 Machine Learning Models | Train and evaluate predictive models |
+| 🧠 Deep Learning | Explore neural networks and deep learning concepts |
+| 🛠️ ML Pipelines | Understand preprocessing, training, and reproducible workflows |
+| 🌐 ML Deployment | Learn how to make trained models usable in applications |
+
+*Completed projects and repository links will be added as I build and publish them.*
+
+---
+
+## 🗺️ My Learning Roadmap
+
+`Python` → `Statistics` → `Data Science` → `Machine Learning` → `Deep Learning` → `ML Engineering`
+
+My goal is to move from understanding the fundamentals to building reliable, practical machine learning systems.
+
+---
+
+## 📈 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mijumderkawser&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mijumderkawser&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mijumderkawser&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mijumderkawser&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" height="165" alt="GitHub Statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mijumderkawser&layout=compact&hide_border=true&theme=tokyonight" height="165" alt="Most Used Languages" />
 </p>
 
 ---
 
-## 💡 My Philosophy
+## 💭 My Philosophy
 
-> "The goal is to turn data into information, and information into insight."
+> Learn the mathematics. Understand the data. Build the model. Test the results. Improve the system.
 
-I believe in staying curious, learning by doing, and using data to better understand real-world problems.
+I believe in curiosity, experimentation, and continuous learning.
 
 ---
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://github.com/mijumderkawser">
-    <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white" alt="Visit My GitHub" />
-  </a>
-</p>
-
-<p align="center">
-  <b>One dataset at a time. One insight at a time. 🚀</b>
-</p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:164E63,100:080F1D&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <a href="https://github.com/mijumderkawser">
+    <img src="https://img.shields.io/badge/Connect%20with%20me-GitHub-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+  <p><sub>Exploring Data Science. Building toward Machine Learning Engineering. 🚀</sub></p>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:0B3B60,100:050816&height=100&section=footer" width="100%" alt="" />
