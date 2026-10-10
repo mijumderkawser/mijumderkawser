@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b0c08">
+  <meta name="description" content="Mojumder Kawser — Information Technology student exploring Data Science, Machine Learning, analytics, and intelligent systems.">
+
+  <title>Mojumder Kawser | Data Science & Machine Learning</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="progress-track" aria-hidden="true">
+    <span id="progressFill"></span>
+  </div>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <!-- Living Data Universe -->
+  <canvas id="universe-bg" aria-hidden="true"></canvas>
+
+  <!-- Rotating Neural Network Sphere -->
+  <canvas id="bg3d" aria-hidden="true"></canvas>
+
+  <!-- Custom cursor -->
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a class="brand" href="#home" aria-label="Mojumder Kawser — home">
+      <span class="brand-mark">MK</span>
+
+      <span class="brand-copy">
+        <strong>Mojumder Kawser</strong>
+        <small>Data · Machine Learning · Engineering</small>
+      </span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="siteNav"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Focus</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#education">Education</a>
+      <a href="#beyond">Beyond Data</a>
+      <a class="nav-cta" href="#contact">
+        Let’s connect <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <!-- Hero background photo -->
+      <img class="hero-bg-photo" src="photo.png" alt="" aria-hidden="true">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          Information Technology & Microelectronics Student
+        </p>
+
+        <h1 class="hero-title">
+          I turn complex data into
+          <span class="title-accent">
+            <span id="rotatingWord">clear insight.</span>
+          </span>
+        </h1>
+
+        <p class="hero-text">
+          I’m building toward a career in Data Science and Machine
+          Learning—combining analytical thinking, programming, and an
+          engineering mindset to explore practical problems.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my focus <span aria-hidden="true">↓</span>
+          </a>
+
+          <a class="button button-quiet" href="mailto:kawsermojumder33@email.com">
+            Email me <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>
+            <i class="meta-dot"></i>
+            Based in Voronezh, Russia
+          </span>
+
+          <span>Originally from Bangladesh</span>
+        </div>
+
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+        <span></span> Scroll to explore
+      </a>
+
+      <div class="hero-stamp" aria-hidden="true">
+        <span>DATA</span>
+        <b>&</b>
+        <span>INSIGHT</span>
+      </div>
+
+    </section>
+
+    <!-- MOVING TEXT -->
+    <div class="ticker" aria-label="Areas of interest">
+      <div class="ticker-track">
+        <span>
+          DATA ANALYSIS <b>✳</b>
+          MACHINE LEARNING <b>✳</b>
+          MODELING <b>✳</b>
+          VISUALIZATION <b>✳</b>
+          INTELLIGENT SYSTEMS <b>✳</b>
+        </span>
+
+        <span>
+          DATA ANALYSIS <b>✳</b>
+          MACHINE LEARNING <b>✳</b>
+          MODELING <b>✳</b>
+          VISUALIZATION <b>✳</b>
+          INTELLIGENT SYSTEMS <b>✳</b>
+        </span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+
+      <div class="section-label">
+        <span class="section-number">01</span>
+        <span>About</span>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="portrait-panel reveal">
+
+          <div class="portrait-halo" aria-hidden="true"></div>
+
+          <img
+            class="portrait"
+            src="photo.png"
+            alt="Portrait of Mojumder Kawser"
+            onerror="this.classList.add('image-missing')"
+          >
+
+          <div class="portrait-caption">
+            <span class="caption-mark">MK</span>
+            <span>
+              <strong>Mojumder Kawser</strong>
+              <small>Curious mind. Systems thinker.</small>
+            </span>
+          </div>
+
+          <span class="portrait-index" aria-hidden="true">
+            PROFILE / 01
+          </span>
+
+        </div>
+
+        <div class="about-copy">
+
+          <p class="eyebrow">A clear story behind the data</p>
+
+          <h2 class="section-title">
+            I connect technical ideas with
+            <mark>real-world problems.</mark>
+          </h2>
+
+          <p class="body-copy">
+            I’m an Information Technology and Microelectronics student
+            with a background in Marine Engineering. I’m interested in
+            using data to uncover patterns, support predictions, and
+            make complex information easier to understand.
+          </p>
+
+          <p class="body-copy muted-copy">
+            My engineering studies have helped me value structured
+            thinking, troubleshooting, and careful analysis. I’m bringing
+            that mindset into Python, SQL, data visualization, and
+            machine learning.
+          </p>
+
+          <dl class="facts-grid">
+
+            <div>
+              <dt>Current focus</dt>
+              <dd>Data Science & Machine Learning</dd>
+            </div>
+
+            <div>
+              <dt>Studies</dt>
+              <dd>Information Technology & Microelectronics</dd>
+            </div>
+
+            <div>
+              <dt>Previous qualification</dt>
+              <dd>Diploma in Marine Engineering</dd>
+            </div>
+
+            <div>
+              <dt>Location</dt>
+              <dd>Voronezh, Russia</dd>
+            </div>
+
+          </dl>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AREAS OF FOCUS -->
+    <section class="section focus-section" id="projects">
+
+      <div class="section-label">
+        <span class="section-number">02</span>
+        <span>Areas of focus</span>
+      </div>
+
+      <div class="focus-heading">
+
+        <div>
+          <p class="eyebrow">What I’m learning and building toward</p>
+
+          <h2 class="section-title">
+            Turning curiosity into <mark>capability.</mark>
+          </h2>
+        </div>
+
+        <p class="heading-note">
+          These are my current project directions—not claims of completed
+          client work. As I finish projects, I’ll add their results and
+          source links here.
+        </p>
+
+      </div>
+
+      <div class="focus-grid">
+
+        <article class="focus-card reveal">
+
+          <div class="card-top">
+            <span class="card-number">01</span>
+            <span class="card-icon" aria-hidden="true">↗</span>
+          </div>
+
+          <p class="card-kicker">ANALYTICS · VISUAL STORYTELLING</p>
+
+          <h3>From raw data to useful insight.</h3>
+
+          <p>
+            Explore datasets, find meaningful patterns, and communicate
+            the findings through clear charts and dashboards.
+          </p>
+
+          <div class="chip-row">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+          </div>
+
+        </article>
+
+        <article class="focus-card focus-card-featured reveal">
+
+          <div class="card-top">
+            <span class="card-number">02</span>
+            <span class="card-icon" aria-hidden="true">⌁</span>
+          </div>
+
+          <p class="card-kicker">MACHINE LEARNING · PREDICTION</p>
+
+          <h3>Models that learn from data.</h3>
+
+          <p>
+            Build a foundation in feature preparation, model training,
+            evaluation, and understanding when predictions are useful.
+          </p>
+
+          <div class="chip-row">
+            <span>Scikit-learn</span>
+            <span>TensorFlow</span>
+            <span>PyTorch</span>
+          </div>
+
+        </article>
+
+        <article class="focus-card reveal">
+
+          <div class="card-top">
+            <span class="card-number">03</span>
+            <span class="card-icon" aria-hidden="true">◎</span>
+          </div>
+
+          <p class="card-kicker">AI · DEEP LEARNING</p>
+
+          <h3>Exploring intelligent systems.</h3>
+
+          <p>
+            Learn how text and image data can be processed using natural
+            language processing, computer vision, and neural networks.
+          </p>
+
+          <div class="chip-row">
+            <span>NLP</span>
+            <span>Computer Vision</span>
+            <span>Deep Learning</span>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section class="section toolkit-section" id="toolkit">
+
+      <div class="section-label">
+        <span class="section-number">03</span>
+        <span>Toolkit</span>
+      </div>
+
+      <div class="toolkit-content">
+
+        <p class="eyebrow">Tools I’m learning and using</p>
+
+        <h2 class="section-title">
+          A growing toolkit for <mark>analytical work.</mark>
+        </h2>
+
+        <div class="toolkit-groups">
+
+          <div class="tool-group reveal">
+
+            <div class="tool-group-title">
+              <span>01</span>
+              <h3>Data & Analytics</h3>
+            </div>
+
+            <div class="chip-row large-chips">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>SQL</span>
+              <span>PostgreSQL</span>
+              <span>Power BI</span>
+              <span>Data Visualization</span>
+              <span>Excel</span>
+            </div>
+
+          </div>
+
+          <div class="tool-group reveal">
+
+            <div class="tool-group-title">
+              <span>02</span>
+              <h3>Machine Learning & AI</h3>
+            </div>
+
+            <div class="chip-row large-chips">
+              <span>Scikit-learn</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+              <span>Deep Learning</span>
+              <span>NLP</span>
+              <span>Computer Vision</span>
+            </div>
+
+          </div>
+
+          <div class="tool-group reveal">
+
+            <div class="tool-group-title">
+              <span>03</span>
+              <h3>Engineering & Development</h3>
+            </div>
+
+            <div class="chip-row large-chips">
+              <span>GitHub</span>
+              <span>AutoCAD</span>
+              <span>SolidWorks</span>
+              <span>Mechanical Systems</span>
+              <span>Troubleshooting</span>
+              <span>Preventive Maintenance</span>
+              <span>Safety & Risk Assessment</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION AND AWARDS -->
+    <section class="section education-section" id="education">
+
+      <div class="section-label">
+        <span class="section-number">04</span>
+        <span>Education & recognition</span>
+      </div>
+
+      <div class="education-grid">
+
+        <div>
+
+          <p class="eyebrow">The learning journey</p>
+
+          <h2 class="section-title">
+            Building a foundation, <mark>step by step.</mark>
+          </h2>
+
+          <div class="timeline">
+
+            <article class="timeline-item reveal">
+              <span class="timeline-year">2027</span>
+              <div>
+                <h3>BSc in Information Technology and Microelectronics</h3>
+                <p>
+                  Voronezh State Forest Engineering University named
+                  after G. F. Morozov
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-year">2020</span>
+              <div>
+                <h3>Diploma in Marine Engineering</h3>
+                <p>Institute of Marine Technology, Chandpur</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-year">2016</span>
+              <div>
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p>School education</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="awards-panel reveal">
+
+          <p class="eyebrow">Highlights</p>
+          <h3>Recognition & awards</h3>
+
+          <ul class="award-list">
+
+            <li>
+              <span>✳</span>
+              <div>
+                <strong>1st Place</strong>
+                <small>Science Fair · 2024</small>
+              </div>
+            </li>
+
+            <li>
+              <span>✳</span>
+              <div>
+                <strong>2nd Place</strong>
+                <small>Math Olympiad · 2023</small>
+              </div>
+            </li>
+
+            <li>
+              <span>✳</span>
+              <div>
+                <strong>Best Student Award</strong>
+                <small>2022</small>
+              </div>
+            </li>
+
+            <li>
+              <span>✳</span>
+              <div>
+                <strong>3rd Place</strong>
+                <small>Art Competition · 2021</small>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BEYOND DATA -->
+    <section class="section beyond-section" id="beyond">
+
+      <div class="section-label">
+        <span class="section-number">05</span>
+        <span>Beyond data</span>
+      </div>
+
+      <div class="beyond-grid">
+
+        <div>
+
+          <p class="eyebrow">A wider perspective</p>
+
+          <h2 class="section-title">
+            An engineering mindset. <mark>A curious life.</mark>
+          </h2>
+
+          <p class="body-copy">
+            Marine engineering taught me to think about systems,
+            reliability, maintenance, and the relationships between
+            complex components. I bring that same curiosity to data
+            and intelligent systems.
+          </p>
+
+          <p class="body-copy muted-copy">
+            Outside study, I enjoy activities that keep me creative,
+            active, and open to new ideas.
+          </p>
+
+        </div>
+
+        <div class="beyond-panel reveal">
+
+          <p class="panel-label">OFF THE CLOCK</p>
+          <h3>Things I enjoy</h3>
+
+          <div class="hobby-grid">
+            <span>Reading</span>
+            <span>Coding</span>
+            <span>Football</span>
+            <span>Drawing</span>
+            <span>Music</span>
+          </div>
+
+          <div class="panel-divider"></div>
+
+          <p class="panel-label">ENGINEERING BACKGROUND</p>
+
+          <p class="engineering-tags">
+            Marine systems <b>·</b>
+            Diesel engines <b>·</b>
+            Pumps & compressors <b>·</b>
+            Hydraulics <b>·</b>
+            Thermodynamics
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+
+      <div class="contact-orbit" aria-hidden="true"></div>
+
+      <div class="contact-inner">
+
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          The next chapter starts with a conversation
+        </p>
+
+        <h2>
+          Let’s turn good questions into
+          <mark>better answers.</mark>
+        </h2>
+
+        <p>
+          I’m growing my skills in Data Science and Machine Learning
+          and welcome thoughtful connections, learning opportunities,
+          and collaboration.
+        </p>
+
+        <div class="contact-actions">
+
+          <a class="button button-light" href="mailto:kawsermojumder33@email.com">
+            kawsermojumder33@email.com
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="contact-phone" href="tel:+79964507740">
+            +7 996 450-77-40
+          </a>
+
+          <a
+            class="contact-github"
+            id="githubLink"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            hidden
+          >
+            GitHub profile ↗
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <a class="footer-brand" href="#home">MK<span>.</span></a>
+
+    <p>
+      © <span id="year"></span>
+      Mojumder Kawser · Built with curiosity.
+    </p>
+
+    <a href="#home" class="back-top">Back to top ↑</a>
+
+  </footer>
+
+  <!-- Three.js must load before script.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
