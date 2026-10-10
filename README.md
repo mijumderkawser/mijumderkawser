@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0B3B60,100:06B6D4&height=220&section=header&text=Kawser%20Hossen&fontSize=46&fontColor=FFFFFF&fontAlignY=35&desc=DATA%20SCIENCE%20%7C%20MACHINE%20LEARNING%20ENGINEERING&descSize=14&descAlignY=58" width="100%" alt="Data Science and Machine Learning Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0B3B60,100:06B6D4&height=220&section=header&text=MOJUMDER%20KAWSER&fontSize=46&fontColor=FFFFFF&fontAlignY=35&desc=DATA%20SCIENCE%20%7C%20MACHINE%20LEARNING%20ENGINEERING&descSize=14&descAlignY=58" width="100%" alt="Data Science and Machine Learning Banner" />
 </div>
 
 <h2 align="center">Data Science & Machine Learning</h2>
