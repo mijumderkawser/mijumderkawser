@@ -19,7 +19,7 @@
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Kawser Hossen**.
+Hi, I'm **MOJUMDER KAWSER**.
 
 I'm passionate about **Data Science and Machine Learning Engineering**. I'm interested in understanding complex datasets, discovering meaningful patterns, and developing intelligent systems with data.
 
