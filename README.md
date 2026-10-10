@@ -3,7 +3,7 @@
 
 <img src="./data-science-3d-banner.png" width="100%" alt="Kawser Mojumder - Data Science and Machine Learning"/>
 
-# 👋 Hi, I'm Kawser Hossen Mojumder
+# 👋 Hi, I'm Kawser Mojumder
 
 ### 🧠 Data Science | Machine Learning | Deep Learning
 
